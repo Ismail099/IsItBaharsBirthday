@@ -3,8 +3,25 @@
 
 body {
   background: #f6f6f6;
-  background-color: black;
   font-family: 'Staatliches', cursive;
+
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  color: white;
+  padding: 10px;
+  width: 100%;
+
+  background-color: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
 }
 
 body #container {
@@ -262,7 +279,7 @@ body #container #countdown #text {
 }
 
 
-.countdownContainer {
+.container {
   position: absolute;
   top: 50%;
   left: 50%;

@@ -3,49 +3,51 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="author" content="Haidar Ibo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Is it Bahar 's Birthday?</title>
 </head>
 
 <body>
-
-    <div id="=container" style="max-width:100%;height:auto;">
-        <div id="countdown">
-            <table class="countdownContainer">
-                <tr class="info">
-                    <td colspan="4" class="info">Bahar's Birthday Countdown</td>
-                </tr>
-                <tr class="info">
-                    <td id="days">120</td>
-                    <td id="hours">4</td>
-                    <td id="minutes">15</td>
-                    <td id="seconds">32</td>
-                </tr>
-
-                <tr>
-                    <td>Days</td>
-                    <td>Hours</td>
-                    <td>Minutes</td>
-                    <td>Seconds</td>
-                </tr>
-            </table>
-        </div>
-
-        <div id="birthdayTime">
-            <h3>YES</h3>
-            
-            <div id="cake">
-                <div id="flame">
-                    <div id="inner-flame"></div>
-                </div>
-                <div class="underline"></div>
+    <div id="container">
+        <div id="cake">
+            <div id="flame">
+                <div id="inner-flame"></div>
             </div>
-
-            <a href="https://youtu.be/cEJy2q27hVk?t=3" target="_blank">
-                <img src="https://i.imgur.com/X3Xyf76.png" id="unicornPicture">
-            </a>
+            <div class="underline"></div>
+        </div>
+        <div id="countdown">
+            <div id="cdDays">
+                <div class="spacer"></div>
+                <div id="daysNum"></div>
+                <div class="label">DAY(S)</div>
+            </div>
+            <div id="cdHours">
+                <div class="spacer"></div>
+                <div id="hoursNum"></div>
+                <div class="label">HOURS</div>
+            </div>
+            <div id="cdMins">
+                <div class="spacer"></div>
+                <div id="minsNum"></div>
+                <div class="label">MINUTES</div>
+            </div>
+            <div id="cdSecs">
+                <div class="spacer"></div>
+                <div id="secsNum"></div>
+                <div class="label">SECONDS</div>
+            </div>
+            <div id="text">Until Bahar's Birthday</div>
         </div>
     </div>
+
+    <div id="birthdayTime">
+        <h3>YES</h3>
+        <a href="https://youtu.be/cEJy2q27hVk?t=3" target="_blank">
+          <img src="https://i.imgur.com/X3Xyf76.png" id="unicornPicture">
+        </a>
+    </div>
+
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 </body>
